@@ -1,4 +1,4 @@
-protected class base { // Error: illegal modifier for class - 'protected'
+public class base { // Error: illegal modifier for class - 'protected'
   String Method() {
     return "Wow";
   }
