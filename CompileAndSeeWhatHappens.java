@@ -4,7 +4,7 @@ public class base { // Error: illegal modifier for class - 'protected'
   }
 }
 class derived {
-  public void useD() {
+  public void used() {
     base z = new base();
     System.out.println("base says, " + z.Method());
   }
